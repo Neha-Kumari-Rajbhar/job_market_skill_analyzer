@@ -1,56 +1,80 @@
 
 # 📊 Job Market Skill Analyzer
+
 ## 📌 Overview
 
 The **Job Market Skill Analyzer** is a Python-based application that analyzes job market data to identify in-demand skills and compares them with a user’s existing skills.
 It helps users understand **skill gaps** and focus on the most required skills in the job market.
 
 This project uses **Pandas** and **NumPy** for data processing and analysis, and generates an automated text report.
+
 ## 🚀 Features
 
-✔ Reads job market data from a CSV file (`jobs.csv`)
-✔ Cleans and processes data using **Pandas**
-✔ Identifies:
+Reads job market data from a CSV file (`jobs.csv`)
+Cleans and processes data using **Pandas**
+ Identifies:
 
 * Most demanded skills
 * Top job locations
 
-✔ Reads user skills from a text file (`my_skills.txt`)
-✔ Compares:
+  Reads user skills from a text file (`my_skills.txt`)
+  Compares:
 
 * User skills vs job market skills
 
-✔ Generates a report showing:
+ Generates a report showing:
 
 * Top demanded skills
 * Matching skills
 * Missing skills
 * Top job locations
 
-✔ Uses **Object-Oriented Programming (OOP)**
-✔ Uses **file handling** for input and output
-✔ Modular code structure (multiple Python files)
+Uses **Object-Oriented Programming (OOP)**
+Uses **file handling** for input and output
+Modular code structure (multiple Python files)
 
 ## Tech Stack
 
 * Python
 * Pandas
 * NumPy
-* File Handling
-* Object-Oriented Programming (OOP)
+* CSV Dataset
+
+## 🎯 Use Case
+
+* Students exploring in-demand skills
+* Freshers planning skill development
+* Practice project for data analysis using Python
 
 ## 📂 Project Structure
 
 ```
-Job-Market-Skill-Analyzer/
+job_market_skill_analyzer/
 │
-├── jobs.csv
-├── my_skills.txt
-├── analyzer.py
+├── data/
+│ ├── jobs.csv
+│ └── my_skills.txt
+│
+├── analyser.py
+├── skill_match.py
 ├── report_generator.py
-├── main.py
-├── output_report.txt
+└── main.py
 └── README.md
+```
+
+## 📊 Dataset Format
+
+**jobs.csv**
+```csv
+job_title,skills,location
+Senior Machine Learning Engineer,"python, machine learning, sql",New York
+```
+my_skills.txt
+```
+skills
+python
+sql
+data analysis
 ```
 
 ## How It Works
@@ -70,12 +94,13 @@ Job-Market-Skill-Analyzer/
    * Missing skills
    * Top locations
 
+
 ## ▶️ How to Run
 
 1. Clone the repository:
 
 ```
-git clone <your-repo-link>
+git clone https://github.com/your-username/job_market_skill_analyzer.git
 ```
 
 2. Install required libraries:
@@ -96,6 +121,20 @@ python main.py
 output_report.txt
 ```
 
+## Output
+```
+The program will:
+
+Display top skills in the job market
+
+Display top job locations
+
+Show matching skills
+
+Show missing skills
+```
+
+Generate a file named:
 ## 📄 Sample Output (Report)
 
 ```
@@ -120,3 +159,11 @@ Top Job Locations: Bangalore, Hyderabad, Pune
 
 * GitHub: [https://github.com/Neha-Kumari-Rajbhar](https://github.com/Neha-Kumari-Rajbhar)
 * LinkedIn: [https://www.linkedin.com/in/neha-kumari-rajbhar](https://www.linkedin.com/in/neha-kumari-rajbhar)
+
+
+## Future Enhancements
+
+* Integrate Generative AI (Gemini API) to provide personalized career advice based on matched and missing skills
+* Add data visualization using Matplotlib or Seaborn
+* Build a web interface using Flask or FastAPI
+* Support Excel file upload for flexible input handling
