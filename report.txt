@@ -1,0 +1,35 @@
+JOB MARKET SKILL ANALYSIS REPORT
+========================================
+
+Top Skills in Market:
+ python: 4437
+ sql: 4275
+ communication: 2501
+ data analysis: 2359
+ data visualization: 2295
+ machine learning: 2045
+ communication skills: 1697
+ tableau: 1673
+ aws: 1631
+ project management: 1627
+
+Top Job Locations:
+New York, NY: 280
+Chicago, IL: 232
+London, England, United Kingdom: 232
+San Francisco, CA: 199
+Washington, DC: 173
+
+Your Matching Skills:
+python
+data analysis
+machine learning
+sql
+
+Skills You Should Learn:
+project management
+communication skills
+data visualization
+communication
+aws
+tableau
